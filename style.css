@@ -162,3 +162,6 @@ h5 {
 .btn-group .badge-pill:hover .sign{
   visibility: visible; 
 }
+.carousel-item {
+  max-height : 600px; 
+}
