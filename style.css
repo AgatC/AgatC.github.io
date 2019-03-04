@@ -1,4 +1,4 @@
-    @font-face {
+        @font-face {
       font-family: partybusiness ;
       src: url('partybusiness.ttf') format('truetype')
     }
@@ -42,7 +42,8 @@ title {
   margin-top : 2rem;
   margin-bottom : 2rem; 
   font-size: 1rem; 
-  height: 2rem; 
+  height: auto; 
+  
   
 }
 .badge-pill :hover{
@@ -154,4 +155,12 @@ h5 {
 }
 .btn-group :hover{
   color: orange; 
+}
+.sign {
+  font-family: 'tngan' ; 
+  color : orange;
+  visibility : hidden; 
+}
+.btn-group .badge-pill:hover .sign{
+  visibility: visible; 
 }
