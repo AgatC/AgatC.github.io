@@ -1,13 +1,33 @@
-.body {
-    text-align : center;
-    
+    @font-face {
+      font-family: partybusiness ;
+      src: url('partybusiness.ttf') format('truetype')
+    }
+
+    @font-face {
+      font-family: aniron; 
+      src: url('anirb___.ttf') format('truetype');
+    }
+    @font-face{
+      font-family: tngan ;
+      src: url('tngan.ttf') format('truetype')
+    }
+title {
+  font-family : 'aniron'; 
 }
+.navbar {
+      font-family: aniron;
+      font-size : 1rem;
+      font-style : bold; 
+      background-color : darkorange; 
+      color: black; 
+    }
 .container {
-  width : 100%; 
+  width : auto; 
   height : 100%; 
   margin: 2rw;
-  padding: 2rw; 
+  padding: 1rw; 
   position : relative;
+  font-family: 'partybusiness' ; verdana;
  
 }
 .row {
@@ -15,11 +35,18 @@
   justify-content : center; 
   width : 100%; 
   margin : 1vw; 
-
+   
 }
 
 .badge-pill {
-  margin : 2vw; 
+  margin-top : 2rem;
+  margin-bottom : 2rem; 
+  font-size: 1rem; 
+  height: 2rem; 
+  
+}
+.badge-pill :hover{
+  color: orange; 
 }
 .card {
   justify-content: space-around;
@@ -27,7 +54,7 @@
 }
 
 footer {
-  background-color : darkgrey; 
+  background-color : darkorange; 
   display: flex;
   flex-wrap: wrap; 
   text-align : space-around; 
@@ -42,4 +69,89 @@ footer {
   opacity : 0.8;
   justify-content : center; 
   margin : auto; 
+}
+
+#fellows
+ { 
+  text-align : center; 
+  font-family : 'aniron';
+}
+#later
+{ 
+  text-align : center; 
+  font-family : 'aniron';
+}
+#wanted  { 
+  text-align : center; 
+  font-family : 'aniron';
+}
+
+#captured 
+{ 
+  text-align : center; 
+  font-family : 'aniron'; 
+}
+#dangerous  { 
+  text-align : center; 
+  font-family : 'aniron';
+}
+#vador {
+  text-align : center; 
+  font-family : 'aniron';
+  margin-top : 25%; 
+  font-size : 2vw; 
+  color : white; 
+}
+#dead {
+  font-family : 'aniron';
+}
+#Gimli {
+  text-decoration: line-through orange;
+  margin-left: 40%; 
+  
+}
+
+#gold {
+  font-family : 'aniron';
+}
+#coins {
+    font-family : 'aniron';
+  }
+  .card-title {
+    justify-content : center; 
+    font-family : 'partybusiness';
+    font-size : 3vw;
+    margin-top : 50%;
+    margin-left: 30%; 
+  }
+.card-text{
+  justify-content : center; 
+    font-family : 'partybusiness';
+    margin : auto; 
+    font-size: 2vw; 
+}
+#mille 
+{color: orange;}
+#huit {
+  color: orange; 
+}
+.btn {
+  margin-top : 10%;
+  margin-left: 30%; 
+}
+#u {
+  font-family: 'tngan' ; 
+  color : orange;
+}
+h5 {
+  display: flex; 
+  align-items: center; 
+}
+.btn-group {
+  margin-left: 18%; 
+  margin-top : auto; 
+  font-size : 3vw;
+}
+.btn-group :hover{
+  color: orange; 
 }
